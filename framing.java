@@ -36,10 +36,10 @@ class framing
 		System.out.println("Enter escape character");
 		String esc = sc.next();
 		String escpl = esc + esc;
-		data = data.replaceAll(esc, escpl);
+		data = data.replace(esc, escpl);
 		System.out.println(data);
 		String flagpl = esc + flag;
-		data = data.replaceAll(flag, flagpl);
+		data = data.replace(flag, flagpl);
 		String transmit = flag + data + flag;
 		System.out.println("Transmitted:" + transmit);
 	}
