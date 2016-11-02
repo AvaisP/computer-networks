@@ -14,11 +14,13 @@ class framing
 				break;
 
 			case 2:
-				char_stuffing();
+				char_stuffing();//sender
+				//make receiver
 				break;
 
 			case 3:
-				bit_stuffing();
+				bit_stuffing();//sender
+				//receiver
 				break;
 
 			default:
